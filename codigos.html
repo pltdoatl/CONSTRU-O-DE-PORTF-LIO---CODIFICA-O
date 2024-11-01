@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio - Projetos</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="portifolio.html">Portfólio</a></li>
+                <li><a href="habilidades.html">Minhas Habilidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <label class="switch">
+          <input type="checkbox" id="dark-mode-toggle" onclick="myFunction()">
+          <span class="slider round"></span>
+        </label>
+    </header>
+    
+    <section class="titulo">
+        <h1>Meus Projetos</h1>
+    </section>
+    <section class="codigos">
+        <div class="html-section">
+            <h2>HTML</h2>
+            <pre><code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                  &lt;meta charset="UTF-8"&gt;
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                  &lt;title&gt;Elit Photography&lt;/title&gt;
+                  &lt;link rel="stylesheet" href="styles.css"&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+        
+                  &lt;header id="lateral"&gt;
+                    &lt;div id="header"&gt;
+                      &lt;a href="" id="tituloH"&gt;&lt;b&gt;ELIT PHOTO&lt;/b&gt;&lt;/a&gt;
+                      &lt;ul id="linksh"&gt;
+                        &lt;li id="linkh" style="font-size: medium;"&gt;HOME&lt;/li&gt;
+                        &lt;li id="linkh" style="font-size: medium;"&gt;PHOTOS&lt;/li&gt;
+                        &lt;li id="linkh" style="font-size: medium;"&gt;BIOGRAPHY&lt;/li&gt;
+                        &lt;li id="linkh" style="font-size: medium;"&gt;BLOG&lt;/li&gt;
+                        &lt;li id="linkh" style="font-size: medium;"&gt;CONTACT&lt;/li&gt;
+                        &lt;span class="icon-facebook"&gt;&lt;/span&gt;
+                        &lt;span class="icon-twitter"&gt;&lt;/span&gt;
+                        &lt;span class="icon-instagran"&gt;&lt;/span&gt;
+                      &lt;/ul&gt;
+                    &lt;/div&gt;
+                  &lt;/header&gt;
+        
+                  &lt;div class="conteudo"&gt;
+        
+                    &lt;section id="main"&gt;
+                      &lt;div id="centralizar"&gt;
+                        &lt;h1 id="bemvindo"&gt;
+                          WELCOME
+                        &lt;/h1&gt;&lt;br&gt;
+                        &lt;p id="lorem1"&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore animi accusantium voluptatum saepe. &lt;br&gt; 
+                        Natus nihil, facere corporis numquam, architecto dolorum.&lt;/p&gt;&lt;br&gt;
+                        &lt;button id="contato"&gt;&lt;b&gt;CONTACT ME&lt;/b&gt;&lt;/button&gt;
+                      &lt;/div&gt;
+                    &lt;/section&gt;
+        
+                    &lt;main id="fotos"&gt;
+                      &lt;div id="foto1"&gt;
+                        &lt;img src="https://preview.colorlib.com/theme/elit/images/img_4.jpg" alt="" id="imagens"&gt;
+                      &lt;/div&gt;
+                      &lt;!-- Adicione mais imagens aqui --&gt;
+                    &lt;/main&gt;
+        
+                    &lt;section id="pessoas"&gt;
+                      &lt;div class="pessoas"&gt;
+                        &lt;h1 class="pessoa1"&gt;TESTIMONIAL&lt;/h1&gt;
+                        &lt;img src="https://preview.colorlib.com/theme/elit/images/person_2.jpg.webp" alt="Man" class="homem"&gt;
+                        &lt;p class="nome"&gt;&lt;b&gt;Jean Smith&lt;/b&gt;&lt;/p&gt;
+                        &lt;p class="textHomem"&gt;“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tenetur quis facilis quam optio &lt;br&gt; 
+                        voluptate totam placeat, doloremque. Sit repellat ipsum dolor fugit similique itaque maxime &lt;br&gt; saepe ipsam. Velit, harum!”&lt;/p&gt;
+                      &lt;/div&gt;
+                    &lt;/section&gt;
+        
+                    &lt;footer&gt;
+                      &lt;p class="paragrafo1"&gt;Copyright ©2024 All rights reserved | This template is made with by Colorlib&lt;/p&gt;
+                    &lt;/footer&gt;
+                  &lt;/div&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+              </code></pre>
+        </div>
+        
+        <div class="css-section">
+            <h2>CSS</h2>
+            <pre><code>
+                /* Estilização do cabeçalho */
+                #header {
+                    background-color: #333;
+                    padding: 20px;
+                }
+                
+                #tituloH {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 24px;
+                }
+                
+                #linksh {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                
+                #linkh {
+                    display: inline;
+                    margin-right: 20px;
+                    color: white;
+                    cursor: pointer;
+                }
+                
+                /* Estilização do conteúdo principal */
+                .conteudo {
+                    margin: 20px;
+                }
+                
+                /* Estilização da seção de fotos */
+                #fotos {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                
+                #foto1 {
+                    margin: 10px;
+                }
+                
+                /* Estilização dos elementos da seção de testemunhos */
+                .pessoas {
+                    text-align: center;
+                }
+                
+                .pessoa1 {
+                    font-size: 24px;
+                }
+                
+                /* Estilização da seção de biografia */
+                #BioSite {
+                    margin: 20px 0;
+                }
+                
+                /* Estilização do blog */
+                #blog {
+                    margin: 20px 0;
+                }
+                
+                #imagemBlog {
+                    display: flex;
+                    margin-bottom: 20px;
+                }
+                
+                .textblog {
+                    margin-left: 10px;
+                }
+                
+                /* Estilização do formulário de contato */
+                #formulario {
+                    margin: 20px 0;
+                }
+                
+                .formulario {
+                    margin-bottom: 10px;
+                }
+                
+                /* Estilização do rodapé */
+                footer {
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    padding: 10px 0;
+                }
+                    </code></pre>
+    </div>
+</section>
